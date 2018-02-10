@@ -6,4 +6,9 @@
                       :asset-path "resources/public"
                       :target     :browser
                       :modules    {:main {:entries [todomvc.factui]}}
+                      :devtools         {:http-root  "resources/public"
+                                         :http-port  8702
+                                         :hud true
+                                         :open-file-command ["idea" :pwd "--line" :line :file]
+                                         }
                       }}}
