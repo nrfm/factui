@@ -1,6 +1,8 @@
-# FactUI TodoMVC
+# FactUI TodoMVC running with shadow-cljs
 
 This is a very small example app using the traditional TodoMVC demo. It uses plain FactUI in a very basic, straightforward way; real applications may desire to add some additional plumbing ]for things like update handling (rather than calling `transact!` directly from event handlers, for example.
+
+
 
 
 ## Running the TodoMVC Example
@@ -25,7 +27,9 @@ running with shadow cljs...
 2. `npm install`
 3. `shadow-cljs watch app`
 
-open localhost at port 8777
+open `http://localhost:8702/app-shadow.html`
+
+
 
  
  

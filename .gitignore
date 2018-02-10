@@ -15,3 +15,5 @@ pom.xml.asc
 
 node_modules
 examples/todomvc/package-lock.json
+
+examples/todomvc/resources/public/js

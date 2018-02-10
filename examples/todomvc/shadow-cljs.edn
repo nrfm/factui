@@ -2,8 +2,8 @@
  :nrepl        {:port 8777}
  :dependencies [[rum "0.10.8"]
                 [org.arachne-framework/factui "1.1.0-SNAPSHOT"]]
- :builds       {:app {:output-dir "target/"
-                      :asset-path "resources/public"
+ :builds       {:app {:output-dir "resources/public/js"
+                      :asset-path "js/"
                       :target     :browser
                       :modules    {:main {:entries [todomvc.factui]}}
                       :devtools         {:http-root  "resources/public"
