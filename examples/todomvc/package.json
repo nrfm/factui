@@ -4,6 +4,9 @@
   "description": "This is a very small example app using the traditional TodoMVC demo. It uses plain FactUI in a very basic, straightforward way; real applications may desire to add some additional plumbing ]for things like update handling (rather than calling `transact!` directly from event handlers, for example.",
   "main": "index.js",
   "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "shadow-cljs": "^2.1.6"
   },
   "devDependencies": {},
