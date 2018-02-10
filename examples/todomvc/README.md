@@ -24,6 +24,9 @@ running with shadow cljs...
 
 2. `npm install`
 3. `shadow-cljs watch app`
+
+open localhost at port 8777
+
  
  
 
