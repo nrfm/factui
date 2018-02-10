@@ -1,0 +1,15 @@
+{
+  "name": "todomvc",
+  "version": "1.0.0",
+  "description": "This is a very small example app using the traditional TodoMVC demo. It uses plain FactUI in a very basic, straightforward way; real applications may desire to add some additional plumbing ]for things like update handling (rather than calling `transact!` directly from event handlers, for example.",
+  "main": "index.js",
+  "dependencies": {
+    "shadow-cljs": "^2.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -14,3 +14,4 @@ pom.xml.asc
 *.iml
 
 node_modules
+examples/todomvc/package-lock.json
